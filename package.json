@@ -4,7 +4,8 @@
   "description": "markup previewer for fcc",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "webpack-dev-server --hot",
+    "build" : "webpack",
     "production": "webpack -p"
   },
   "author": "pkh1162",
